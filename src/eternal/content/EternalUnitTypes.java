@@ -32,6 +32,7 @@ public class EternalUnitTypes{
   public static UnitType frame;
   public static void load(){
     frame = new TankUnitType("frame"){{
+      constructor = UnitEntity::create;
       speed = 2;
       hitSize = 9f;
         health = 180;
