@@ -9,6 +9,8 @@ import mindustry.gen.*;
 import mindustry.mod.*;
 import mindustry.ui.dialogs.*;
 
+import eternal.content.EternalUnitTypes.*;
+
 public class EternalJavaMod extends Mod{
 
     public EternalJavaMod(){
@@ -16,6 +18,7 @@ public class EternalJavaMod extends Mod{
 
     @Override
     public void loadContent(){
+        EternalUnitTypes.load();
     }
 
 }
