@@ -35,6 +35,7 @@ public class EternalUnitTypes{
       constructor = UnitEntity::create;
       speed = 2;
       hitSize = 9f;
+      omniMovement = false;
         health = 180;
         weapons.add(new Weapon("frame-weapon"){{
         reload = 60f;
