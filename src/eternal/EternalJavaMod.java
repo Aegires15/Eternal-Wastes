@@ -11,7 +11,7 @@ import mindustry.ui.dialogs.*;
 
 public class EternalJavaMod extends Mod{
 
-    public EternalJavaMod()
+    public EternalJavaMod(){
     }
 
     @Override
