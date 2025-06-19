@@ -32,12 +32,12 @@ public class EternalUnitTypes{
   public static EternalUnitType frame;
   public static void load(){
     frame = new TankUnitType("frame"){{
-      speed: 2;
-      hitSize: 9f;
-        health: 180;
+      speed = 2;
+      hitSize = 9f;
+        health = 180;
         weapons.add(new Weapon("frame-weapon"){{
-        reload: 60f;
-          x: 0f;
+        reload = 60f;
+          x = 0f;
           y = 0f;
           bullet = new MissileBulletType(2.5f, 30){{
             width = 8f;
