@@ -29,7 +29,7 @@ import static arc.math.Angles.*;
 import static mindustry.Vars.*;
 
 public class EternalUnitTypes{
-  public static EternalUnitType frame;
+  public static UnitType frame;
   public static void load(){
     frame = new TankUnitType("frame"){{
       speed = 2;
