@@ -38,10 +38,11 @@ public class EternalUnitTypes{
       omniMovement = false;
         health = 180;
         weapons.add(new Weapon("frame-weapon"){{
-        reload = 60f;
+        reload = 55f;
           x = 0f;
           y = 0f;
           rotate = true;
+          shootSound = Sounds.shootAlt
           bullet = new MissileBulletType(2.5f, 30){{
             width = 8f;
               height = 11f;
