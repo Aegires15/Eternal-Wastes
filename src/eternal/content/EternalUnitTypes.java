@@ -42,7 +42,7 @@ public class EternalUnitTypes{
           x = 0f;
           y = 0f;
           rotate = true;
-          shootSound = Sounds.shootAlt
+          shootSound = Sounds.shootAlt;
           bullet = new MissileBulletType(2.5f, 30){{
             width = 8f;
               height = 11f;
