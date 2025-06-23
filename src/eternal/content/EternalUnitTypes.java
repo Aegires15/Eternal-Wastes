@@ -36,7 +36,7 @@ public class EternalUnitTypes{
       speed = 2;
       hitSize = 9f;
       omniMovement = false;
-      hover = false;
+      hovering = false;
         health = 180;
         weapons.add(new Weapon("frame-weapon"){{
         reload = 55f;
