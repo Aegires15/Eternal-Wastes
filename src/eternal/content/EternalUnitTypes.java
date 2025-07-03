@@ -35,11 +35,11 @@ public class EternalUnitTypes{
       constructor = TankUnit::create;
       speed = 2;
       hitSize = 9f;
-      omniMovement = false;
       hovering = false;
         health = 180;
         weapons.add(new Weapon("eternal-wastes-frame-weapon"){{
         reload = 55f;
+          mirror = false;
           x = 0f;
           y = 0f;
           rotate = true;
