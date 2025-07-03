@@ -32,13 +32,13 @@ public class EternalUnitTypes{
   public static UnitType frame;
   public static void load(){
     frame = new TankUnitType("frame"){{
-      constructor = UnitEntity::create;
+      constructor = TankUnit::create;
       speed = 2;
       hitSize = 9f;
       omniMovement = false;
       hovering = false;
         health = 180;
-        weapons.add(new Weapon("frame-weapon"){{
+        weapons.add(new Weapon("eternal-wastes-frame-weapon"){{
         reload = 55f;
           x = 0f;
           y = 0f;
