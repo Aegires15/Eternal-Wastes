@@ -18,6 +18,7 @@ public class EternalJavaMod extends Mod{
     @Override
     public void loadContent(){
         EternalUnitTypes.load();
+        EternalPlanets.load();
     }
 
 }
