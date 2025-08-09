@@ -22,7 +22,7 @@ public class EternalPlanets{
   pyrois;
 
 public static void load(){
-  libra = new Planet("libra", null, 4f, 14){{
+  libra = new Planet("libra", null, 4f, 8){{
             bloom = true;
             accessible = false;
 
