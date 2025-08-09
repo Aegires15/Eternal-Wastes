@@ -80,9 +80,6 @@ public static void load(){
                 r.coreDestroyClear = true;
                 r.onlyDepositCore = true;
             };
-            campaignRuleDefaults.fog = true;
-            campaignRuleDefaults.showSpawns = true;
-            campaignRuleDefaults.rtsAI = true;
 
             unlockedOnLand.add(Blocks.coreBastion);
         }};
