@@ -16,7 +16,6 @@ import mindustry.world.meta.*;
 import static mindustry.Vars.*;
 
 public class PyroisPlanetGenerator extends PlanetGenerator{
-    Color c1 = Color.valueOf("ff795e"), c2 = Color.valueOf("c85c51");
 
     Block[][] arr = {
     {Blocks.ferricStone, Blocks.carbonStone, Blocks.ferricStone, Blocks.redStone, Blocks.redIce}
