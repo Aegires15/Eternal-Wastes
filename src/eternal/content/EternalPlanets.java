@@ -15,6 +15,7 @@ import mindustry.type.*;
 import mindustry.world.*;
 import mindustry.world.meta.*;
 import mindustry.content.*;
+import eternal.maps.planet.*;
 
 public class EternalPlanets{
   public static Planet
@@ -39,7 +40,7 @@ public static void load(){
             );
         }};
   pyrois = new Planet("pyrois", libra, 1f, 4){{
-            generator = new ErekirPlanetGenerator();
+            generator = new PyroisPlanetGenerator();
             meshLoader = () -> new HexMesh(this, 5);
             cloudMeshLoader = () -> new MultiMesh(
                 new HexSkyMesh(this, 2, 0.15f, 0.14f, 5, Color.valueOf("eba768").a(0.75f), 2, 0.42f, 1f, 0.43f),
@@ -63,10 +64,10 @@ public static void load(){
             enemyBuildSpeedMultiplier = 0.4f;
 
             //TODO disallowed for now
-            allowLaunchToNumbered = true;
+            allowLaunchToNumbered = false;
 
             //TODO SHOULD there be lighting?
-            updateLighting = false;
+            updateLighting = true;
 
             defaultAttributes.set(Attribute.heat, 1.2f);
 
