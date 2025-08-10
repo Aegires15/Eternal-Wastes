@@ -23,7 +23,7 @@ public class PyroisPlanetGenerator extends PlanetGenerator{
     {
         baseSeed = 2;
         defaultLoadout = Loadouts.basicBastion;
-    }
+    };
 
     
         cells(4);
