@@ -40,11 +40,7 @@ public class PyroisPlanetGenerator extends PlanetGenerator{
     @Override
     public float getSizeScl(){
         return 2000;
-    }
-
-    @Override
-    public void addWeather(Sector sector, Rules rules){
-        //no weather... yet
+        //no weather... how depressing
     }
 
     @Override
