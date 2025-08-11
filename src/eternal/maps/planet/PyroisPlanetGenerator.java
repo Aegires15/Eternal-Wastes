@@ -15,7 +15,7 @@ import mindustry.world.meta.*;
 
 import static mindustry.Vars.*;
 
-public class PyroisPlanetGenerator extends PlanetGenerator{
+public abstract class PyroisPlanetGenerator extends PlanetGenerator{
     public float heightScl = 0.9f, octaves = 8, persistence = 0.7f, heightPow = 3f, heightMult = 1.6f;
 
     //TODO inline/remove
