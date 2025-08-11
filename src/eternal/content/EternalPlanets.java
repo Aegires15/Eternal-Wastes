@@ -40,7 +40,7 @@ public static void load(){
             );
         }};
   pyrois = new Planet("pyrois", libra, 1f, 4){{
-            generator = new PyroisPlanetGenerator();
+            generator = new ErekirPlanetGenerator();
             meshLoader = () -> new HexMesh(this, 5);
             cloudMeshLoader = () -> new MultiMesh(
                 new HexSkyMesh(this, 2, 0.15f, 0.14f, 5, Color.valueOf("eba768").a(0.75f), 2, 0.42f, 1f, 0.43f),
