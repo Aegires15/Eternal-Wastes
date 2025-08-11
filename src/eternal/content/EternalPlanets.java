@@ -15,7 +15,6 @@ import mindustry.type.*;
 import mindustry.world.*;
 import mindustry.world.meta.*;
 import mindustry.content.*;
-import eternal.maps.planet.*;
 
 public class EternalPlanets{
   public static Planet
