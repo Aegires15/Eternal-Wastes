@@ -53,5 +53,28 @@ public class EternalUnitTypes{
           }};
         }});
     }};
+    theta = new ErekirUnitType("theta"){{
+      constructor = FlyingUnit::create;
+      speed = 4;
+      hitSize = 9f;
+      flying = true;
+        health = 250;
+        weapons.add(new Weapon("none"){{
+        reload = 60f;
+          mirror = false;
+          x = 0f;
+          y = 0f;
+          rotate = true;
+          shootSound = Sounds.shootAltLong;
+          bullet = new BasicBulletType(2.5f, 30){{
+            width = 8f;
+              height = 11f;
+            buildingDamageMultiplier = 0.01f;
+            speed = 1.65f;
+            lifetime = 80f;
+            trailColor = Pal.unitBack;
+          }};
+        }});
+    }};
   }
 }
