@@ -58,7 +58,7 @@ public class EternalUnitTypes{
       speed = 4;
       hitSize = 9f;
       mineWalls = true;
-      mineFloors = false;
+      mineFloor = false;
       mineTier = 3;
       flying = true;
         health = 250;
