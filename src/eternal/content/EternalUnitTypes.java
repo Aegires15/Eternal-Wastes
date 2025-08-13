@@ -29,7 +29,7 @@ import static arc.math.Angles.*;
 import static mindustry.Vars.*;
 
 public class EternalUnitTypes{
-  public static UnitType frame;
+  public static UnitType frame, theta;
   public static void load(){
     frame = new TankUnitType("frame"){{
       constructor = TankUnit::create;
@@ -54,9 +54,12 @@ public class EternalUnitTypes{
         }});
     }};
     theta = new ErekirUnitType("theta"){{
-      constructor = FlyingUnit::create;
+      constructor = UnitEntity::create;
       speed = 4;
       hitSize = 9f;
+      mineWalls = true;
+      mineFloors = false;
+      mineTier = 3;
       flying = true;
         health = 250;
         weapons.add(new Weapon("none"){{
