@@ -62,6 +62,12 @@ public class EternalUnitTypes{
       mineTier = 3;
       flying = true;
         health = 250;
+       parts.add(new RegionPart("-glow"){{
+                color = Color.yellow;
+                blending = Blending.additive;
+                layer = -1f;
+                outline = false;
+            }});
         weapons.add(new Weapon("none"){{
         reload = 60f;
           mirror = false;
